@@ -1,0 +1,212 @@
+.firstPage {
+  height: 100vh;
+  width: 100vw;
+  padding: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 2%;
+}
+
+.firstDiv {
+  height: 100%;
+  width: 40%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.imgOne {
+  height: 90%;
+  width: 100%;
+  background-color: antiquewhite;
+  border-radius: 5%;
+}
+
+.secondDiv {
+  height: 100%;
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 7%;
+  padding: 40px;
+}
+
+.secondDivHeadingOne {
+  font-size: 45px;
+  font-weight: 600;
+}
+
+.secondDivHeadingTwo {
+  font-size: 20px;
+  font-weight: 400;
+  letter-spacing: 1.1px;
+}
+
+.thirdDiv {
+  width: 97%;
+  height: 25%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  gap: 7%;
+  flex-wrap: wrap;
+}
+
+.thirdDivHeadings {
+  font-size: 20px;
+  text-align: left;
+}
+
+/* For small screens (up to 320px) */
+@media (max-width: 320px) {
+  .secondDivHeadingOne {
+    font-size: 12px;
+    padding: 5px;
+  }
+
+  .secondDivHeadingTwo {
+    font-size: 8px;
+  }
+
+  .imgOne {
+    height: 40%;
+    width: 100%;
+  }
+
+  .thirdDivHeadings {
+    font-size: 9px;
+    text-align: left;
+  }
+}
+
+/* For small screens (up to 375px) */
+@media (min-width: 321px) and (max-width: 375px) {
+  .secondDivHeadingOne {
+    font-size: 14px;
+    padding: 5px;
+  }
+
+  .secondDivHeadingTwo {
+    font-size: 10px;
+  }
+
+  .imgOne {
+    height: 40%;
+    width: 100%;
+  }
+
+  .thirdDivHeadings {
+    font-size: 11px;
+    text-align: left;
+  }
+}
+
+/* For small screens (up to 600px) */
+@media (min-width: 376px) and (max-width: 600px) {
+  .secondDivHeadingOne {
+    font-size: 17px;
+    padding: 5px;
+  }
+
+  .secondDivHeadingTwo {
+    font-size: 11px;
+  }
+
+  .imgOne {
+    height: 40%;
+    width: 100%;
+  }
+
+  .thirdDivHeadings {
+    font-size: 12px;
+    text-align: left;
+  }
+}
+
+/* For medium screens (601px to 900px) */
+@media (min-width: 601px) and (max-width: 900px) {
+  .secondDivHeadingOne {
+    font-size: 30px;
+  }
+
+  .secondDivHeadingTwo {
+    font-size: 16px;
+  }
+
+  .imgOne {
+    height: 70%;
+    width: 100%;
+  }
+
+  .thirdDivHeadings {
+    font-size: 14px;
+    text-align: left;
+  }
+}
+
+/* For large screens (901px to 1200px) */
+@media (min-width: 901px) and (max-width: 1200px) {
+  .secondDivHeadingOne {
+    font-size: 35px;
+  }
+
+  .secondDivHeadingTwo {
+    font-size: 20px;
+  }
+
+  .imgOne {
+    height: 80%;
+    width: 100%;
+  }
+
+  .thirdDivHeadings {
+    font-size: 20px;
+    text-align: left;
+  }
+}
+
+/* For extra large screens (1201px and above) */
+@media (min-width: 1201px) and (max-width: 2559px) {
+  .secondDivHeadingOne {
+    font-size: 55px;
+  }
+
+  .secondDivHeadingTwo {
+    font-size: 25px;
+  }
+
+  .imgOne {
+    height: 70%;
+    width: 100%;
+  }
+
+  .thirdDivHeadings {
+    font-size: 26px;
+    text-align: left;
+  }
+}
+
+/* For very large screens (2560px and above) */
+@media (min-width: 2560px) {
+  .secondDivHeadingOne {
+    font-size: 85px;
+  }
+
+  .secondDivHeadingTwo {
+    font-size: 50px;
+  }
+
+  .imgOne {
+    height: 80%;
+    width: 100%;
+  }
+
+  .thirdDivHeadings {
+    font-size: 50px;
+    text-align: left;
+  }
+}

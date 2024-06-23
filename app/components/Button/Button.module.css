@@ -1,0 +1,99 @@
+.buttonDiv {
+  width: 100%;
+  height: 20%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn {
+  width: 25%;
+  height: 45%;
+  letter-spacing: 2px;
+  font-size: 20px;
+  background-color: black;
+  color: antiquewhite;
+  cursor: pointer;
+  font-weight: 600;
+  border-radius: 10px;
+  box-shadow: none;
+}
+
+/* For small screens (up to 320px) */
+@media (max-width: 320px) {
+  .btn {
+    width: 95%;
+    height: 95%;
+    letter-spacing: 1px;
+    font-size: 12px;
+    font-weight: 600;
+  }
+}
+
+/* For small screens (up to 375px) */
+@media (min-width: 321px) and (max-width: 375px) {
+  .btn {
+    width: 95%;
+    height: 95%;
+    letter-spacing: 1px;
+    font-size: 12px;
+    font-weight: 600;
+  }
+}
+
+/* For small screens (up to 600px) */
+@media (min-width: 376px) and (max-width: 600px) {
+  .btn {
+    width: 85%;
+    height: 95%;
+    letter-spacing: 1px;
+    font-size: 12px;
+    font-weight: 600;
+  }
+}
+
+/* For medium screens (601px to 900px) */
+@media (min-width: 601px) and (max-width: 900px) {
+  .btn {
+    width: 65%;
+    height: 95%;
+    letter-spacing: 1px;
+    font-size: 17px;
+    font-weight: 600;
+  }
+}
+
+/* For large screens (901px to 1200px) */
+@media (min-width: 901px) and (max-width: 1200px) {
+  .btn {
+    width: 45%;
+    height: 95%;
+    letter-spacing: 1px;
+    font-size: 18px;
+    font-weight: 600;
+    padding: 10px;
+  }
+}
+
+/* For extra large screens (1201px and above) */
+@media (min-width: 1201px) and (max-width: 2559px) {
+  .btn {
+    width: 45%;
+    height: 95%;
+    padding: 10px;
+    letter-spacing: 1px;
+    font-size: 28px;
+    font-weight: 600;
+  }
+}
+
+/* For very large screens (2560px and above) */
+@media (min-width: 2560px) {
+  .btn {
+    width: 55%;
+    height: 75%;
+    letter-spacing: 1px;
+    font-size: 52px;
+    font-weight: 600;
+  }
+}

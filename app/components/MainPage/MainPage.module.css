@@ -1,0 +1,469 @@
+.mainPage {
+  height: 100vh;
+  width: 100vw;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.imgOne {
+  height: 150px;
+  width: 150px;
+}
+
+.firstDiv {
+  height: 10%;
+  width: 40%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+  background-color: #171f38;
+}
+
+.secondDiv {
+  height: 20%;
+  width: 55%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  border-radius: 20px;
+  background-color: black;
+  padding: 20px;
+}
+
+.thirdDiv {
+  height: 40%;
+  width: 75%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  border-radius: 20px;
+  background-color: #171f38;
+}
+
+.thirdDivFirstContent {
+  height: 100%;
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 20px;
+}
+
+.mainHeading {
+  font-size: 40px;
+  text-align: center;
+  color: antiquewhite;
+  letter-spacing: 1.1px;
+  font-weight: 300;
+}
+
+.secondHeading {
+  font-size: 26px;
+  text-align: center;
+  font-weight: 400;
+  color: antiquewhite;
+  letter-spacing: 1.1px;
+}
+
+.thirdDivHeadingOne {
+  font-size: 25px;
+  text-align: center;
+  font-weight: 400;
+  color: antiquewhite;
+  text-align: left;
+}
+
+.thirdDivHeadingTwo {
+  font-size: 22px;
+  text-align: center;
+  font-weight: 400;
+  text-align: left;
+  color: antiquewhite;
+}
+
+.imgSecond {
+  height: 95%;
+  width: 60%;
+  background-color: antiquewhite;
+  border-radius: 30px;
+  z-index: 10;
+}
+
+.thirdDivSecondContent {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 40%;
+}
+
+.thirdDivSubDiv {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+.imgStars {
+  width: 130px;
+  height: 30px;
+  margin: 0 15px;
+}
+
+.thirdDivSubDivHeadingOne {
+  font-size: 20px;
+  text-align: center;
+  font-weight: 300;
+  color: antiquewhite;
+}
+
+/* For small screens (up to 320px) */
+@media (max-width: 320px) {
+  .firstDiv {
+    width: 75%;
+  }
+
+  .secondDiv {
+    width: 85%;
+  }
+
+  .thirdDiv {
+    width: 95%;
+  }
+
+  .mainHeading {
+    font-size: 15px;
+    font-weight: 700;
+  }
+
+  .secondHeading {
+    font-size: 15px;
+    font-weight: 400;
+  }
+
+  .imgStars {
+    height: 15px;
+    width: 50px;
+    margin: 0 3px;
+  }
+
+  .imgOne {
+    height: 70px;
+    width: 70px;
+  }
+
+  .thirdDivHeadingOne {
+    font-size: 12px;
+    font-weight: 600;
+  }
+
+  .thirdDivHeadingTwo {
+    font-size: 12px;
+    font-weight: 600;
+  }
+
+  .thirdDivSubDivHeadingOne {
+    font-size: 9px;
+    font-weight: 700;
+  }
+
+  .imgSecond {
+    height: 95%;
+    width: 100%;
+  }
+}
+
+/* For small screens (up to 375px) */
+@media (min-width: 321px) and (max-width: 375px) {
+  .firstDiv {
+    width: 65%;
+  }
+
+  .secondDiv {
+    width: 85%;
+  }
+
+  .thirdDiv {
+    width: 95%;
+  }
+
+  .mainHeading {
+    font-size: 15px;
+    font-weight: 700;
+  }
+
+  .secondHeading {
+    font-size: 15px;
+    font-weight: 400;
+  }
+
+  .imgStars {
+    height: 15px;
+    width: 50px;
+    margin: 0 3px;
+  }
+
+  .imgOne {
+    height: 80px;
+    width: 80px;
+  }
+
+  .thirdDivHeadingOne {
+    font-size: 12px;
+    font-weight: 600;
+  }
+
+  .thirdDivHeadingTwo {
+    font-size: 12px;
+    font-weight: 600;
+  }
+
+  .thirdDivSubDivHeadingOne {
+    font-size: 9px;
+    font-weight: 700;
+  }
+
+  .imgSecond {
+    height: 95%;
+    width: 100%;
+  }
+}
+
+/* For small screens (up to 600px) */
+@media (min-width: 376px) and (max-width: 600px) {
+  .firstDiv {
+    width: 55%;
+  }
+
+  .secondDiv {
+    width: 75%;
+  }
+
+  .thirdDiv {
+    width: 95%;
+  }
+
+  .mainHeading {
+    font-size: 15px;
+    font-weight: 700;
+  }
+
+  .secondHeading {
+    font-size: 15px;
+    font-weight: 400;
+  }
+
+  .imgStars {
+    height: 15px;
+    width: 50px;
+    margin: 0 3px;
+  }
+
+  .imgOne {
+    height: 90px;
+    width: 90px;
+  }
+
+  .thirdDivHeadingOne {
+    font-size: 12px;
+    font-weight: 600;
+  }
+
+  .thirdDivHeadingTwo {
+    font-size: 12px;
+    font-weight: 600;
+  }
+
+  .thirdDivSubDivHeadingOne {
+    font-size: 9px;
+    font-weight: 700;
+  }
+
+  .imgSecond {
+    height: 95%;
+    width: 100%;
+  }
+}
+
+/* For medium screens (601px to 900px) */
+@media (min-width: 601px) and (max-width: 900px) {
+  .mainHeading {
+    font-size: 20px;
+    font-weight: 700;
+  }
+
+  .secondHeading {
+    font-size: 20px;
+    font-weight: 400;
+  }
+
+  .imgStars {
+    height: 20px;
+    width: 100px;
+    margin: 0 5px;
+  }
+
+  .imgOne {
+    height: 120px;
+    width: 120px;
+  }
+
+  .thirdDivHeadingOne {
+    font-size: 16px;
+    font-weight: 600;
+  }
+
+  .thirdDivHeadingTwo {
+    font-size: 16px;
+    font-weight: 600;
+  }
+
+  .thirdDivSubDivHeadingOne {
+    font-size: 13px;
+    font-weight: 700;
+  }
+
+  .imgSecond {
+    height: 95%;
+    width: 100%;
+  }
+}
+
+/* For large screens (901px to 1200px) */
+@media (min-width: 901px) and (max-width: 1200px) {
+  .mainHeading {
+    font-size: 22px;
+    font-weight: 500;
+  }
+
+  .secondHeading {
+    font-size: 22px;
+    font-weight: 400;
+  }
+
+  .imgStars {
+    height: 25px;
+    width: 100px;
+    margin: 0 5px;
+  }
+
+  .imgOne {
+    height: 90px;
+    width: 90px;
+  }
+
+  .thirdDivHeadingOne {
+    font-size: 16px;
+    font-weight: 600;
+  }
+
+  .thirdDivHeadingTwo {
+    font-size: 16px;
+    font-weight: 600;
+  }
+
+  .thirdDivSubDivHeadingOne {
+    font-size: 13px;
+    font-weight: 700;
+  }
+
+  .imgSecond {
+    height: 95%;
+    width: 80%;
+  }
+}
+
+/* For extra large screens (1201px and above) */
+@media (min-width: 1201px) and (max-width: 2559px) {
+  .mainHeading {
+    font-size: 28px;
+    font-weight: 700;
+  }
+
+  .secondHeading {
+    font-size: 28px;
+    font-weight: 400;
+  }
+
+  .imgStars {
+    height: 30px;
+    width: 130px;
+    margin: 0 10px;
+  }
+
+  .imgOne {
+    height: 120px;
+    width: 120px;
+  }
+
+  .thirdDivHeadingOne {
+    font-size: 23px;
+    font-weight: 500;
+  }
+
+  .thirdDivHeadingTwo {
+    font-size: 23px;
+    font-weight: 500;
+  }
+
+  .thirdDivSubDivHeadingOne {
+    font-size: 18px;
+    font-weight: 600;
+  }
+
+  .imgSecond {
+    height: 95%;
+    width: 80%;
+  }
+}
+
+/* For very large screens (2560px and above) */
+@media (min-width: 2560px) {
+  .mainHeading {
+    font-size: 42px;
+    font-weight: 700;
+  }
+
+  .secondHeading {
+    font-size: 42px;
+    font-weight: 400;
+  }
+
+  .imgStars {
+    height: 55px;
+    width: 250px;
+    margin: 0 25px;
+  }
+
+  .imgOne {
+    height: 290px;
+    width: 290px;
+  }
+
+  .thirdDivHeadingOne {
+    font-size: 46px;
+    font-weight: 600;
+  }
+
+  .thirdDivHeadingTwo {
+    font-size: 46px;
+    font-weight: 600;
+  }
+
+  .thirdDivSubDivHeadingOne {
+    font-size: 33px;
+    font-weight: 700;
+  }
+
+  .imgSecond {
+    height: 95%;
+    width: 80%;
+  }
+}
