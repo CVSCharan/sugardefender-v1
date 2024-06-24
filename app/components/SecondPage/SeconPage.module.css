@@ -24,12 +24,14 @@
   font-size: 30px;
   text-align: center;
   font-weight: 600;
+  color: aliceblue;
 }
 
 .firstDivHeadingTwo {
   font-size: 20px;
   text-align: center;
   font-weight: 500;
+  color: aliceblue;
 }
 
 .secondDiv {
@@ -67,12 +69,14 @@
   font-size: 20px;
   text-align: center;
   font-weight: 600;
+  color: aliceblue;
 }
 
 .secondDivContentHeadingTwo {
   font-size: 16px;
   font-weight: 500;
   text-align: center;
+  color: aliceblue;
 }
 
 /* For small screens (up to 320px) */

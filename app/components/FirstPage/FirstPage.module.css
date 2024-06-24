@@ -40,12 +40,14 @@
 .secondDivHeadingOne {
   font-size: 45px;
   font-weight: 600;
+  color: aliceblue;
 }
 
 .secondDivHeadingTwo {
   font-size: 20px;
   font-weight: 400;
   letter-spacing: 1.1px;
+  color: aliceblue;
 }
 
 .thirdDiv {
@@ -61,6 +63,7 @@
 .thirdDivHeadings {
   font-size: 20px;
   text-align: left;
+  color: aliceblue;
 }
 
 /* For small screens (up to 320px) */
