@@ -67,7 +67,7 @@
 @media (min-width: 901px) and (max-width: 1200px) {
   .btn {
     width: 45%;
-    height: 95%;
+    height: 55%;
     letter-spacing: 1px;
     font-size: 18px;
     font-weight: 600;
@@ -79,7 +79,7 @@
 @media (min-width: 1201px) and (max-width: 2559px) {
   .btn {
     width: 45%;
-    height: 95%;
+    height: 55%;
     padding: 10px;
     letter-spacing: 1px;
     font-size: 28px;

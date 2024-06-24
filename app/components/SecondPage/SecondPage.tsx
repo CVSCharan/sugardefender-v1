@@ -2,6 +2,7 @@ import React from "react";
 import secondPageStyles from "./SeconPage.module.css";
 import Image from "next/image";
 import { ingredents } from "./SecondPageFun";
+import AdComp from "../AdComp/AdComp";
 
 const SecondPage = () => {
   return (
@@ -33,6 +34,9 @@ const SecondPage = () => {
             </h2>
           </div>
         ))}
+      </div>
+      <div className={secondPageStyles.thirdDiv}>
+        <AdComp />
       </div>
     </div>
   );
