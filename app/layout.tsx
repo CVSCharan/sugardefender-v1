@@ -16,6 +16,12 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+      <head>
+        <script
+          src="https://richinfo.co/richpartners/in-page/js/richads-ob.js?pubid=929555&siteid=347784"
+          async
+        ></script>
+      </head>
       <body className={inter.className}>{children}</body>
     </html>
   );
